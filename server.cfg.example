@@ -1,0 +1,14 @@
+# =======================================================================
+# server.cfg - LB-Phone Configuration Example for WHIP Framework
+# =======================================================================
+
+# Core dependencies
+ensure oxmysql
+ensure whip_core
+
+# If you previously had whip_phone enabled, comment it out:
+# ensure whip_phone
+
+# LB-Phone Resources
+ensure lb-phoneprop
+ensure lb-phone
